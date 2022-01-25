@@ -1,0 +1,4 @@
+// Podemos decir que un Array es una variable compuesta por un conjunto de elementos ordenados, una lista. 
+// Lo identificamos porque la lista esta escrita dentro de brackets [] separadas por comas.
+// Dentro de un Array podemos introducir distintos tipos de datos, numeros, booleanos, strings, otros arrays,
+// funciones, etc. y acceder a ellos, modificarlos, invocarlos, cambiarlos, realizar operaciones, etc.
