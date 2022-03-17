@@ -1,0 +1,23 @@
+//text file homework 03-JS-II
+
+//El For es un bucle utilizado en programacion
+//para imprimir códigos mas o menos largos que de otro modo
+//llevaría mucho tiempo para escribirlo manualmente.
+//Sirve para no repetir códigos y ahorrar tiempo, ya que 
+//la computadora lo hace sola atendiendo a tres datos
+//que le damos al For: una variable, una condicion y un
+//modo de incrementarse el valor que le hayamos asignado.
+
+// "&&" significa "y", este operador lógico sirve para comparar dos 
+//variables. Se va a ejecutar cuando ambas variables sean true.
+//Si una de ellas, o ambas, son false, no se ejecutará.
+
+// "||" significa "o", este operador lógico también sirve para
+//comparar variables. Se va a ejecutar cuando, al menos una
+//de las variables, sea true. No se ejecutará solo cuando
+//ambas sean false.
+
+//"!" siginifica "NO", es decir que niega lo que sigue después.
+//Este operador nos va a devolver el booleano opuesto a lo que le
+//estamos diciendo. Por ejemplo, si decimos que (1 < 2) es true,
+//pero si decimos que (!(1 < 2)) será false.
