@@ -1,0 +1,10 @@
+// Un prototype es como una matriz común a varios objetos, que esta "detras" de ellos, donde se pueden almacenar propiedades, funciones, etc
+// que son compartidas por los objetos para poder acceder a ellas sin necesidad de estar escribiendolas en cada uno.
+// Esto sirve para no repetir codigo que requeriría mayor almacenamiento de datos y para evitar errores que podrían
+// ser cometidos al codear. 
+
+// Un constructor de clase o constructor es una forma de almacenar de manera ordenada objetos que, a su vez, pueden
+// contener datos iguales pero distintos entre sí, por ejemplo, una lista de alumnos, lista de modelos de cosas, etc. Sería
+// una relacion de genero - especie
+// donde el género es el constructor, y la especie es cada objeto dentro de el, con caracteristicas similares entre si,
+// pero a su vez diferentes. Vg, todos los alumnos tienen un nombre, apellido, direccion, pero todas son distintas.
