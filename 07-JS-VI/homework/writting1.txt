@@ -1,0 +1,2 @@
+//Funciones callbacks son funciones que se pasan como argumento dentro de otra funcion, para que la funcion primera ejecute
+//lo que le mandamos en la segunda funcion o CB. 
