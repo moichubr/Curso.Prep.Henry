@@ -1,0 +1,55 @@
+body {
+    width: 100%;
+    background-color:rgb(139, 125, 99);
+    color: rgb(214, 194, 156);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16;
+    margin: 0 auto;
+}
+
+header h1 {
+    color:rgb(107, 92, 63);
+    text-align: center;
+    padding-top: 50px;
+}
+
+.cuerpo {
+    background-color:rgb(148, 138, 118);
+    max-width: 55%;
+    margin: 0 auto;
+    padding: 25px;
+    text-align: justify;
+}
+
+.seccion {
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+
+#presentacion {
+    width: 90%;
+    }
+
+.extraa {
+    width: 90%;
+}
+
+p {
+    margin-left: 30px;
+}
+
+hr {
+    background-color: bisque;
+    border: bisque;
+    height: 2px;
+    margin-top: 30px;
+}
+
+img {
+    float: right;
+    margin: -2em 3em 1em 1em;
+    height: 150px;
+    width: 130px;
+    /*border: solid rgb(100, 84, 84) 2px;*/
+    border-radius: 90px;
+}

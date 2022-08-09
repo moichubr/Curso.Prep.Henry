@@ -1,20 +1,54 @@
-.divClass h1{
-    color: red;
+body {
+    background-image: url(../img/Pizza.jpg);
+    width: 100%;
+    font-family: tahoma;
+    color: rgb(39, 2, 29);
+    margin: 0;
+    
+}
+
+
+h1 {
+    color: olivedrab
 }
 
 #thirdDiv ul li img {
     width: 400px;
-}
+    margin-top: 10px;
+    }
+
 #thirdDiv {
     width: 500px;
     height: 600px;
-    background-color: whitesmoke;
+    background-color: rgb(187, 28, 28, 0.5);
     padding: 50px;
-    border-color: red;
-    border-style: double; 
-    border-width: 2px;
+    border-color: rgb(250, 194, 157);
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 10px;
+    margin: 0 auto;
 }
-.divClass #spanId{
+
+.divClass {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+#spanId {
     font-size: 18px;
     margin: 50px;
+    display: block;
 }
+
+#spanId a {
+    display: block;
+    color:rgb(42, 124, 39);
+    margin: 0 auto;
+
+}
+
+
+
+
