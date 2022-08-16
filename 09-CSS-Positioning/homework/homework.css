@@ -7,32 +7,77 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Arrancaremos este ejercicio por vos: */
 #ejercicioUno {
+    display: block;
+    text-align: center;
 
 }
 
 
 /* Ejercicio 2: Posicionar el header */
-
+#ejercicioDos {
+    display:none;
+}
 /* Acá va tu código */
 
 
 
 /* Ejercicio 3: */
-
+#ejercicioTres {
+    position:relative;
+    margin-top: 100px;
+    margin-left: 200px;
+}
 /* Acá va tu código */
 
 
 
 /* Ejercicio 4: */
-
+#ejercicioCuatro {
+    position:fixed;
+    top:0;
+    left:0;
+}
 /* Acá va tu código */
 
 
 
 /* Ejercicio 5: */
+#ejercicioCinco {
+    display: -webkit-flex;
+    display:flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
 
+}
 /* Acá va tu código */
 
 
 
 /* Ejercicio 6. */
+#ejercicioCinco {
+    flex-direction: row-reverse;
+}
+
+#ejercicioSiete {   /*en el contenedor padre declarar flex y las
+                    propiedades generales*/
+    display:flex;              
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#elementoUno {
+    align-self: flex-end;
+    }
+
+#elementoCuatro {
+    align-self: flex-start; /*Modifica la prop align-items
+                            para este elemento puntual*/
+}
+
+#elementoTres {
+    order: 4; /*Indica el orden en el que aparece
+              el elemento en el grid*/
+}
